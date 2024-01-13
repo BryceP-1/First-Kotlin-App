@@ -1,0 +1,62 @@
+fun sum(a: Int, b: Int): Int{
+    return a + b
+}
+or
+fun sum(a: Int, b: Int) = a + b
+instead of an if, if else, else do
+when (number){
+    0 -> print("0")
+    1 -> print("1")
+    else -> print("-1")
+} when is the same as switch in java
+
+
+Manifest folder/datatree:
+Change icon
+Change name of app
+Permissions
+
+Java folder/datatree:
+Everything related to code
+Can create new activity in this tree
+
+Res folder/datatree:
+drawable:
+used for images, designs, etc.
+layout:
+activity designs go here
+mipmap:
+ratio and sizing for logo
+values:
+Values you think will be used
+multiple times will be placed here
+
+Gradle Scripts:
+Contains all the dependencies you're using
+
+Whenever you run application first method to be called
+is the onCreate method always
+
+id is unique name
+
+val cant be changed
+var can be changed
+
+supportactionbar hides the title bar at the top
+
+Application Programming Interface(API)
+Allows two programs to communicate on the web API.
+Facilitates transfer of data.
+
+How it works:
+1. Request:
+    API call is initiated by client via HTTP request
+2. Receive:
+    API goes to server, and gets the data
+3. Response:
+    API transfers the data back to requesting
+    application in JSON format
+
+
+In JSON arrays use []
+Objects use {}
